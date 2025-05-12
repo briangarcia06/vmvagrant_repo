@@ -1,0 +1,173 @@
+    1  git@github.com:BriiARG/vmvagrant_repo.git
+    2  ls
+    3  cd repogit
+    4  ls -l
+    5  cd ..
+    6  ssh-keygen -t ed25519
+    7  ls -l .ssh/
+    8  sudo systemctl status sshd
+    9  cat .ssh/id_ed25519.pub
+   10  pwd
+   11  ls
+   12  ls-la
+   13  ls -la
+   14  cd .ssh
+   15  ls -la
+   16  cd ..
+   17  cat
+   18  cat /etc/group | more
+   19  cat README
+   20  mkdir clase 4
+   21  ls -l
+   22  mkdir clase4
+   23  ls-l
+   24  ls -l
+   25  cd clase4
+   26  cat > archivo1.txt
+   27  ls -l
+   28  cat << FIN >archivo2.txt
+   29  linea4
+   30  linea5
+   31  linea6
+   32  FIN
+   33  ls/l
+   34  ls -l
+   35  cat archivo1.txt > archivo3.txt
+   36  ls /l
+   37  ls -l
+   38  cat archivo3.txt
+   39  cat archivo2.txt >> archivo3.txt
+   40  cat archivo3.txt
+   41  tree
+   42  sudo apt install tree
+   43  sudo snap install tree
+   44  tree
+   45  exit
+   46  cd
+   47  mkdir repogit
+   48  cd repogit
+   49  git clone https://github.com/briangarcia06/TP_AySO.git
+   50  git clone git@github.com:briangarcia06/TP_AySO.git
+   51  rm -r TP_AySO
+   52  home
+   53  pwd
+   54  cd T
+   55  git clone git@github.com:briangarcia06/TP_AySO.git
+   56  rm
+   57  rm -r TP_AySO
+   58  rmdir TP_AySO
+   59  rm TP_AySO
+   60  vagrant destroy
+   61  vagrant halt
+   62  ssh-keygen -t ed25519
+   63  cat $HOME/.ssh/
+   64  pwd
+   65  cd .ssh
+   66  ls -l
+   67  cat $HOME/.ssh/id_ed25519.pub
+   68  cd
+   69  mkdir repogit
+   70  cd repogit
+   71  ls -l
+   72  git clone git@github.com:briangarcia06/TP_AySO.git
+   73  cd T
+   74  cd TP_AySO/
+   75  pwd
+   76  ls -l
+   77  cd
+   78  cd repogit
+   79  rm -rf TP_AySO
+   80  ls -l
+   81  git clone git@github.com:briangarcia06/TP_AySO.git
+   82  ls -l
+   83  cd TP_AySO/
+   84  cat /etc/os-release
+   85  man grep
+   86  whoami
+   87  echo "Usuario=$(whoami)">datos_usuario.txt
+   88  ls /l
+   89  ls -l
+   90  grep HOME_URL/etc/os-release
+   91  grep
+   92  man grep
+   93  grep HOME_URL/etc/os-release
+   94  grep home_url /etc/os-release
+   95  grep home_url/etc/os-release
+   96  man grep
+   97  grep -i Home_url/etc/os-release
+   98  grep -i Home_url/etc/os-release>datos_url.txt
+   99  grep -i Home_url /etc/os-release
+  100  grep -i Home_url /etc/os-release > datos_url.txt
+  101  ls/l
+  102  ls-l
+  103  ls -l
+  104  git add .
+  105  git config --global user.email "gamincha@gmail.com"
+  106  git config --global user.name "briangarcia06"
+  107  git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+  108  git status
+  109  git push
+  110  grep "model name" /proc/cpuinfo | head -n1 >> datos_usuarios.txt
+  111  ls -l
+  112  git add datos_usuarios.txt
+  113  git commit -m "feat: Añadiendo información de CPU"
+  114  cat <<EOF>> README.md
+  115  Alumno: Brian Garcia
+  116  División: 211
+  117  Turno: Tarde
+  118  EOF
+  119  git add README.md datos_usuarios.txt
+  120  git commit -m "ADD: Añadiendo Readme y datos de usuario"
+  121  git push
+  122  mkdir -p ~/materia{1,2}/uni{1,2,3}
+  123  ls -l
+  124  which tree
+  125  tree ~/materia1 ~/materia2
+  126  nano script_dir.sh
+  127  aasdqqcd
+  128  ls
+  129  chmod +x script_dir.sh
+  130  ./script_dir.sh
+  131  ls -;
+  132  ls
+  133  tree
+  134  git add .
+  135  git commit -m "ADD: Añadiendo script"
+  136  git push
+  137  history -a
+  138  cp ~/.bash_history ./Historial_comandos_Garcia.txt
+  139  ls
+  140  git add .
+  141  git commit -m "ADD: Historial de comandos de Garcia"
+  142  git push
+  143  git add .
+  144  git commit -m "ADD: Historial de comandos de Garcia"
+  145  git push
+  146  git pull
+  147  git add .
+  148  git commit -m "ADD: Historial de comandos de Garcia"
+  149  git push
+  150  cd repogit
+  151  ls
+  152  cd TP_AySO/
+  153  ls
+  154  history -a
+  155  cp ~/.bash_history ./Historial_comandos_Garcia.txt
+  156  ls
+  157  git add .
+  158  git commit -m "ADD: Historial de comandos de Garcia"
+  159  git push
+  160  FIN
+  161  exit
+  162  sudo systemctl status sshd
+  163  cat .ssh/id_ed25519.pub
+  164  git clone git@github.com:briangarcia06/vmvagrant_repo.git
+  165  git status
+  166  cd vmvagrant_repo/
+  167  ls
+  168  git status
+  169  echo "Brian Garcia" >> archivo1.txt
+  170  ls
+  171  cat archivo1.txt
+  172  ls
+  173  history > historial.txt
